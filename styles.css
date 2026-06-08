@@ -1,21 +1,56 @@
+/* universal selector - used to reset styles */
+* {
+    font-family: 'Times New Roman', "cursive", Arial;
+    font-size: 14px;
+    font-style: normal;
+}
+
 body {
     color: black;
     background-color: #c7bbc9;
-    font-family: '', 'Times New Roman', georgia, 'lucida sans';
+    font-family: Arial, 'Times New Roman', georgia, 'lucida sans';
 }
 
 h1{
     background-color: rgb(94,60,88);
+    font-size: 28px;
+    text-align: center;
+    text-decoration: underline;
 }
 
 h2{
     color: #2e4045;
     background-color:  rgb(131,173,181);
     font-family: "Outfit", 'Times New Roman', georgia, 'lucida sans', sans-serif;
+    line-height: 150%;
+}
+
+li {
+    font-weight: 600;
 }
 
 footer{
     background-color: rgb(191,181,178);
+}
+/* for anchor footer */
+footer a{
+    font-size: 1.5rem;
+}
+
+/* This is the anchor tag. It allows the underline to only show when Im hovering over it below. */
+a{
+    text-decoration: none;
+}
+
+a:hover{
+    text-decoration: underline;
+}
+
+a:active{
+    color: black;
+}
+a:visited{
+    color: rgb(94,60,88);
 }
 /* This is how to write a comment in CSS YO */
 
