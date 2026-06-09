@@ -3,6 +3,7 @@
     font-family: 'Times New Roman', "cursive", Arial;
     font-size: 14px;
     font-style: normal;
+    box-sizing: border-box;
 }
 
 body {
@@ -16,6 +17,12 @@ h1{
     font-size: 28px;
     text-align: center;
     text-decoration: underline;
+    width: 50%;
+    height:80px;
+    padding:5px 5px 0px 5px;
+    margin:5px 5px 5px 5px;
+    /* Top, left, right, bottom. Goes in this order, when you add more px to margin or the box model properties */
+    
 }
 
 h2{
@@ -27,6 +34,16 @@ h2{
 
 li {
     font-weight: 600;
+}
+
+/*made a ID selector for the h4 in my second selection!*/
+#inspirationtechnic{
+    color:aquamarine
+}
+
+/*this is the class selector for my second section labeled second-section!*/
+.second-section{
+    color:#2e4045
 }
 
 footer{
