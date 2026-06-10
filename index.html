@@ -10,11 +10,13 @@
         <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap" rel="stylesheet">
     </head>
     <body>
-        <header id="upnorth">
+        <div class="wrapground"> 
+            <header id="upnorth">
             <!-- The footer id is the reference for the bottom of the footer id to hve it redirect you to top of the website.-->
             <!-- Edit: I got Rid of the footer element and just added it to the header since it was semantically unsound -->
             <h1> Lego Mechtorian Builds Of Awesomeness!</h1>
-        </header>
+            </header>
+        </div>
         <main>
             <section> 
                     <h2>Is that my Lego Builds?</h2>
@@ -48,7 +50,7 @@
             </section>
             <section class="second-section">
                 <figure>
-                    <h4 id="inspirationtechnic"> Lego Technic photo </h4>
+                    <figcaption id="inspirationtechnic"> Lego Technic City (Photo)</figcaption>
                     <img src="./images-assets/LegoTechnic.png" 
                     alt="lego technic city"
                     width="800px"
@@ -59,14 +61,14 @@
                         </a>
                     </figcaption>
                 </figure>
-                <p> This is my small blog showing my lego creations and where I obtained my influence for them. </p>
+                <p> This is my small blog showing my lego creations and where I obtained my
+                <a href="pages/history.html"><strong>Influences</strong></a> for them. </p>
 
             </section>
         </main>
 
         <footer>
-            <p> Created By <em>Nobez</em>
-            </p>
+            <p id="bonk"> Created By Nobez</p>
             <a href="#upnorth">back to top</a>
             <!-- Add a 'back to top' button on website, allows you to go from your footer(bottom site) to the header(top site) and # is important-->
 

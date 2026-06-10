@@ -15,21 +15,45 @@ body {
 h1{
     background-color: rgb(94,60,88);
     font-size: 28px;
+    font-family: "Outfit", 'Times New Roman', georgia, 'lucida sans';
     text-align: center;
     text-decoration: underline;
     width: 50%;
-    height:80px;
-    padding:5px 5px 0px 5px;
-    margin:5px 5px 5px 5px;
-    /* Top, left, right, bottom. Goes in this order, when you add more px to margin or the box model properties */
+    height:85px;
+    background-repeat: no-repeat;
+    padding:3px 3px 0px 3px;
+    margin:3px 3px 3px 3px;
+    /* Top, left, right, bottom. Goes in this order, when you add more px to margin or padding for the box model properties */
     
 }
+
+.wrapground{
+    background-color: pink;
+    border: 4px solid rgb(94,60,88);
+    height: 100px;
+    max-width: cover;
+    background-image: url("./images-assets/background-1.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: top;
+    margin: auto;
+    /* margin gives cool increase in image size when moving screen back and forth because of the cover property as well haha*/
+} 
 
 h2{
     color: #2e4045;
     background-color:  rgb(131,173,181);
+    font-size: 18px;
     font-family: "Outfit", 'Times New Roman', georgia, 'lucida sans', sans-serif;
     line-height: 150%;
+}
+
+h3 {
+    color: rgb(94,60,88);
+    background-color: rgb(131,173,181);
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
 }
 
 li {
@@ -38,17 +62,23 @@ li {
 
 /*made a ID selector for the h4 in my second selection!*/
 #inspirationtechnic{
-    color:aquamarine
+    color: rgb(94,60,88);
+    font-size: 18px;
+    font-style:italic;
+    font-weight:bold;
+
 }
 
 /*this is the class selector for my second section labeled second-section!*/
 .second-section{
-    color:#2e4045
+    color:#2e4045;
 }
 
-footer{
+#bonk {
     background-color: rgb(191,181,178);
+    font-family: "Outfit", 'Times New Roman', georgia, 'lucida sans';
 }
+
 /* for anchor footer */
 footer a{
     font-size: 1.5rem;
